@@ -8,7 +8,6 @@ import { useRoute, useRouter } from 'vue-router'
 const datas = ref<Data[] | null>(null)
 const totalDatas = ref(0)
 const page = ref(1) // 使用 ref 来手动更新页码
-//const pageSize = ref(1) // 每页显示一个数据项
 
 const route = useRoute()
 const router = useRouter()
